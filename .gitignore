@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Pycharm
+.idea
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude data, reports and figures from source control by default
+data/interim/*
+data/processed/*
+data/raw/*
+data/*.*
+reports/*
+figures/*
+
+# exceptions to keep the directory structure in git
+!*.gitkeep
+
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
